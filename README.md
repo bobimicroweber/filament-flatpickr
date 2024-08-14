@@ -111,7 +111,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 Please see [CONTRIBUTING](https://github.com/bobimicroweber/.github/blob/main/CONTRIBUTING.md) for details.
 
-## Security Vulnerabilities
+## Security Vulnerabilities 
 
 Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
 
