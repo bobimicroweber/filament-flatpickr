@@ -1,15 +1,15 @@
 <p align="center">
-    <a href="https://github.com/bobimicroweber/filament-flatpickr/actions?query=workflow%3Arun-tests+branch%3A3.x"><img alt="Tests" src="https://img.shields.io/github/actions/workflow/status/savannabits/filament-modules/run-tests.yml?branch=3.x&label=tests&style=for-the-badge&logo=github"></a>
-    <a href="https://github.com/bobimicroweber/filament-flatpickr/actions?query=workflow%fix-php-code-style-issues+branch%3A3.x"><img alt="Styling" src="https://img.shields.io/github/actions/workflow/status/savannabits/filament-modules/fix-php-code-style-issues.yml?branch=3.x&label=code%20style&style=for-the-badge&logo=github"></a>
+    <a href="https://github.com/bobimicroweber/filament-flatpickr/actions?query=workflow%3Arun-tests+branch%3A3.x"><img alt="Tests" src="https://img.shields.io/github/actions/workflow/status/bobimicroweber/filament-modules/run-tests.yml?branch=3.x&label=tests&style=for-the-badge&logo=github"></a>
+    <a href="https://github.com/bobimicroweber/filament-flatpickr/actions?query=workflow%fix-php-code-style-issues+branch%3A3.x"><img alt="Styling" src="https://img.shields.io/github/actions/workflow/status/bobimicroweber/filament-modules/fix-php-code-style-issues.yml?branch=3.x&label=code%20style&style=for-the-badge&logo=github"></a>
     <a href="https://laravel.com"><img alt="Laravel v9.x" src="https://img.shields.io/badge/Laravel-v9.x-FF2D20?style=for-the-badge&logo=laravel"></a>
     <a href="https://filamentphp.com"><img alt="Filament v3.x" src="https://img.shields.io/badge/FilamentPHP-v3.x-FB70A9?style=for-the-badge&logo=filament"></a>
     <a href="https://php.net"><img alt="PHP 8.1" src="https://img.shields.io/badge/PHP-8.1-777BB4?style=for-the-badge&logo=php"></a>
-    <a href="https://packagist.org/packages/savannabits/filament-flatpickr"><img alt="Packagist" src="https://img.shields.io/packagist/dt/savannabits/filament-flatpickr.svg?style=for-the-badge&logo=count"></a>
+    <a href="https://packagist.org/packages/bobimicroweber/filament-flatpickr"><img alt="Packagist" src="https://img.shields.io/packagist/dt/bobimicroweber/filament-flatpickr.svg?style=for-the-badge&logo=count"></a>
 </p>
 
 Use **[Flatpickr](https://flatpickr.js.org/)** as your datepicker in the Filament Forms and Panels.
 
-**NB: These docs are for v3.x, which only supports Filament 3.x. For Filament v2 users, [use this guide instead](https://github.com/savannabits/filament-flatpickr/tree/main)**
+**NB: These docs are for v3.x, which only supports Filament 3.x. For Filament v2 users, [use this guide instead](https://github.com/bobimicroweber/filament-flatpickr/tree/main)**
 
 ## Installation
 
@@ -109,7 +109,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/savannabits/.github/blob/main/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/bobimicroweber/.github/blob/main/CONTRIBUTING.md) for details.
 
 ## Security Vulnerabilities
 
@@ -117,7 +117,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Savannabits](https://github.com/savannabits)
+- [bobimicroweber](https://github.com/bobimicroweber)
 - [All Contributors](../../contributors)
 
 ## License
