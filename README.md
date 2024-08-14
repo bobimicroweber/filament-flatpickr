@@ -16,7 +16,7 @@ Use **[Flatpickr](https://flatpickr.js.org/)** as your datepicker in the Filamen
 Install the package via composer:
 
 ```bash
-composer require coolsam/flatpickr
+composer require bobimicroweber/flatpickr
 ```
 Next, Run the `filament:assets` command to ensure the package's assets are published:
 
@@ -27,7 +27,7 @@ php artisan filament:assets
 You may optionally publish the package's config file with the following command:
 
 ```bash
-php artisan vendor:publish --tag="coolsam-flatpickr-config"
+php artisan vendor:publish --tag="bobimicroweber-flatpickr-config"
 ```
 
 ## Usage

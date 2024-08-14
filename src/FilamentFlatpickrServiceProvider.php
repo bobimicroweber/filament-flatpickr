@@ -20,7 +20,7 @@ class FilamentFlatpickrServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('coolsam-flatpickr')
+            ->name('bobimicroweber-flatpickr')
             ->hasConfigFile()
             ->hasViews()
             ->hasCommand(FilamentFlatpickrCommand::class);

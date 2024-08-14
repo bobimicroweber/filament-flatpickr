@@ -10,7 +10,7 @@ class FilamentFlatpickr
 {
     public static function getPackageName(): string
     {
-        return 'coolsam/flatpickr';
+        return 'bobimicroweber/flatpickr';
     }
 
     public static function dehydratePickerState($component, $state)

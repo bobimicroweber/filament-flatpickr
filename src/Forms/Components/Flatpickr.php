@@ -26,9 +26,9 @@ class Flatpickr extends Field implements Contracts\CanBeLengthConstrained, Contr
     use Concerns\HasPlaceholder;
     use HasExtraAlpineAttributes;
 
-    const PACKAGE_NAME = 'coolsam/flatpickr';
+    const PACKAGE_NAME = 'bobimicroweber/flatpickr';
 
-    protected string $view = 'coolsam-flatpickr::forms.components.flatpickr';
+    protected string $view = 'bobimicroweber-flatpickr::forms.components.flatpickr';
 
     protected bool $monthSelect = false;
 
@@ -244,7 +244,7 @@ class Flatpickr extends Field implements Contracts\CanBeLengthConstrained, Contr
             </svg>
             '
         );
-        $this->theme(config('coolsam-flatpickr.default_theme', FlatpickrTheme::DEFAULT));
+        $this->theme(config('bobimicroweber-flatpickr.default_theme', FlatpickrTheme::DEFAULT));
 
         if (! $this->dehydrateStateUsing) {
             $this->dehydrateStateUsing(static function (Flatpickr $component, $state) {
