@@ -1,6 +1,6 @@
 <?php
 
-use Coolsam\FilamentFlatpickr\Enums\FlatpickrTheme;
+use BobiMicroweber\FilamentFlatpickr\Enums\FlatpickrTheme;
 
 return [
     'default_theme' => FlatpickrTheme::DEFAULT,

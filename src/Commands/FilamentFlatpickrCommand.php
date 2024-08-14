@@ -1,6 +1,6 @@
 <?php
 
-namespace Coolsam\FilamentFlatpickr\Commands;
+namespace BobiMicroweber\FilamentFlatpickr\Commands;
 
 use Illuminate\Console\Command;
 

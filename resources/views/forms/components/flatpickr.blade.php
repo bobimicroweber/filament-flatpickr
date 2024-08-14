@@ -39,12 +39,12 @@
         x-ignore
         ax-load
         x-load-css="[
-            @js(\Filament\Support\Facades\FilamentAsset::getStyleHref('flatpickr-css', \Coolsam\FilamentFlatpickr\FilamentFlatpickr::getPackageName())),
-            @js(\Filament\Support\Facades\FilamentAsset::getStyleHref('month-select-style', \Coolsam\FilamentFlatpickr\FilamentFlatpickr::getPackageName())),
-            @js(\Filament\Support\Facades\FilamentAsset::getStyleHref('flatpickr-confirm-date-style', \Coolsam\FilamentFlatpickr\FilamentFlatpickr::getPackageName())),
-            {{--@js(\Filament\Support\Facades\FilamentAsset::getStyleHref('flatpickr-'.$attribs['theme'].'-theme', \Coolsam\FilamentFlatpickr\FilamentFlatpickr::getPackageName()))--}}
+            @js(\Filament\Support\Facades\FilamentAsset::getStyleHref('flatpickr-css', \BobiMicroweber\FilamentFlatpickr\FilamentFlatpickr::getPackageName())),
+            @js(\Filament\Support\Facades\FilamentAsset::getStyleHref('month-select-style', \BobiMicroweber\FilamentFlatpickr\FilamentFlatpickr::getPackageName())),
+            @js(\Filament\Support\Facades\FilamentAsset::getStyleHref('flatpickr-confirm-date-style', \BobiMicroweber\FilamentFlatpickr\FilamentFlatpickr::getPackageName())),
+            {{--@js(\Filament\Support\Facades\FilamentAsset::getStyleHref('flatpickr-'.$attribs['theme'].'-theme', \BobiMicroweber\FilamentFlatpickr\FilamentFlatpickr::getPackageName()))--}}
         ]"
-        ax-load-src="{{\Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('flatpickr-component',package: \Coolsam\FilamentFlatpickr\FilamentFlatpickr::getPackageName())}}"
+        ax-load-src="{{\Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('flatpickr-component',package: \BobiMicroweber\FilamentFlatpickr\FilamentFlatpickr::getPackageName())}}"
     >
         <x-filament::input.wrapper
             wire:ignore

@@ -1,6 +1,6 @@
 <?php
 
-namespace Coolsam\FilamentFlatpickr\Enums;
+namespace BobiMicroweber\FilamentFlatpickr\Enums;
 
 enum FlatpickrMonthSelectorType: string
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Coolsam\FilamentFlatpickr\Forms\Components;
+namespace BobiMicroweber\FilamentFlatpickr\Forms\Components;
 
 use Carbon\Carbon;
 use Carbon\CarbonInterface;
 use Closure;
-use Coolsam\FilamentFlatpickr\Enums\FlatpickrMode;
-use Coolsam\FilamentFlatpickr\Enums\FlatpickrMonthSelectorType;
-use Coolsam\FilamentFlatpickr\Enums\FlatpickrPosition;
-use Coolsam\FilamentFlatpickr\Enums\FlatpickrTheme;
+use BobiMicroweber\FilamentFlatpickr\Enums\FlatpickrMode;
+use BobiMicroweber\FilamentFlatpickr\Enums\FlatpickrMonthSelectorType;
+use BobiMicroweber\FilamentFlatpickr\Enums\FlatpickrPosition;
+use BobiMicroweber\FilamentFlatpickr\Enums\FlatpickrTheme;
 use Filament\Forms\Components\Concerns;
 use Filament\Forms\Components\Contracts;
 use Filament\Forms\Components\Field;

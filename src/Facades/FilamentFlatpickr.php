@@ -1,16 +1,16 @@
 <?php
 
-namespace Coolsam\FilamentFlatpickr\Facades;
+namespace BobiMicroweber\FilamentFlatpickr\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Coolsam\FilamentFlatpickr\FilamentFlatpickr
+ * @see \BobiMicroweber\FilamentFlatpickr\FilamentFlatpickr
  */
 class FilamentFlatpickr extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Coolsam\FilamentFlatpickr\FilamentFlatpickr::class;
+        return \BobiMicroweber\FilamentFlatpickr\FilamentFlatpickr::class;
     }
 }

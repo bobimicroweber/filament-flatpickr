@@ -1,10 +1,10 @@
 <?php
 
-namespace Coolsam\FilamentFlatpickr;
+namespace BobiMicroweber\FilamentFlatpickr;
 
 use Carbon\Carbon;
 use Carbon\CarbonInterface;
-use Coolsam\FilamentFlatpickr\Enums\FlatpickrMode;
+use BobiMicroweber\FilamentFlatpickr\Enums\FlatpickrMode;
 
 class FilamentFlatpickr
 {

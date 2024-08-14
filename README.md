@@ -47,7 +47,7 @@ The rest of the configuration is similar to a normal Filament `TextInput`.
 Here are some examples of the methods. Refer to Flatpickr's Official Documentation for details on each of the configurations.
 
 ```php
-use Coolsam\FilamentFlatpickr\Forms\Components\Flatpickr;
+use BobiMicroweber\FilamentFlatpickr\Forms\Components\Flatpickr;
 
 // Basic, Date Field
 Flatpickr::make('test_field') // Minimal Config as a datepicker
@@ -76,14 +76,14 @@ Flatpickr::make('test_field')
     ->conjunction(',') // Applicable only for the MultiDatePicker: Separate inputs using this conjunction. The package will use this conjunction to explode the inputs to an array.
     ->inline(true) // Display the datepicker inline with the input, instead of using a popover.
     ->disableMobile(true) // Disable mobile-version of the datepicker on mobile devices.
-    ->theme(\Coolsam\FilamentFlatpickr\Enums\FlatpickrTheme::AIRBNB) // Set the datepicker theme (applies for all the date-pickers in the current page). For type sanity, Checkout the FlatpickrTheme enum class for a list of allowed themes.
-    ->mode(\Coolsam\FilamentFlatpickr\Enums\FlatpickrMode::RANGE) // Set the mode as single, range or multiple. Alternatively, you can just use ->range() or ->multiple()
-    ->monthSelectorType(\Coolsam\FilamentFlatpickr\Enums\FlatpickrMonthSelectorType::DROPDOWN)
+    ->theme(\BobiMicroweber\FilamentFlatpickr\Enums\FlatpickrTheme::AIRBNB) // Set the datepicker theme (applies for all the date-pickers in the current page). For type sanity, Checkout the FlatpickrTheme enum class for a list of allowed themes.
+    ->mode(\BobiMicroweber\FilamentFlatpickr\Enums\FlatpickrMode::RANGE) // Set the mode as single, range or multiple. Alternatively, you can just use ->range() or ->multiple()
+    ->monthSelectorType(\BobiMicroweber\FilamentFlatpickr\Enums\FlatpickrMonthSelectorType::DROPDOWN)
     ->shorthandCurrentMonth(true)
     ->nextArrow('>')
     ->prevArrow('<')
     ->noCalendar(true)
-    ->position(\Coolsam\FilamentFlatpickr\Enums\FlatpickrPosition::AUTO_CENTER)
+    ->position(\BobiMicroweber\FilamentFlatpickr\Enums\FlatpickrPosition::AUTO_CENTER)
     ->showMonths(1)
     ->weekNumbers(true)
     ->use24hr(true)

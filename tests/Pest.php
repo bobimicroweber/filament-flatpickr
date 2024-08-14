@@ -1,5 +1,5 @@
 <?php
 
-use Coolsam\FilamentFlatpickr\Tests\TestCase;
+use BobiMicroweber\FilamentFlatpickr\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

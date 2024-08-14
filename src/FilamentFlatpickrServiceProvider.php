@@ -1,8 +1,8 @@
 <?php
 
-namespace Coolsam\FilamentFlatpickr;
+namespace BobiMicroweber\FilamentFlatpickr;
 
-use Coolsam\FilamentFlatpickr\Commands\FilamentFlatpickrCommand;
+use BobiMicroweber\FilamentFlatpickr\Commands\FilamentFlatpickrCommand;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Css;
 use Filament\Support\Assets\Js;

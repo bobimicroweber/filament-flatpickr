@@ -1,8 +1,8 @@
 <?php
 
-namespace Coolsam\FilamentFlatpickr\Tests;
+namespace BobiMicroweber\FilamentFlatpickr\Tests;
 
-use Coolsam\FilamentFlatpickr\FilamentFlatpickrServiceProvider;
+use BobiMicroweber\FilamentFlatpickr\FilamentFlatpickrServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Coolsam\\FilamentFlatpickr\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'BobiMicroweber\\FilamentFlatpickr\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 
